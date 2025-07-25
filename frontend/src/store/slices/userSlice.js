@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { toast } from "react-toastify";
-import API_BASE_URL from "@/utils/apiconfig.js";
+import API_BASE_URL from "@/utils/apiconfig";
 
 const userSlice = createSlice({
   name: "user",
