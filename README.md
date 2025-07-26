@@ -86,34 +86,6 @@ PrimeBid is a **comprehensive online auction platform** built with the MERN stac
 - MongoDB Atlas (DB)
 - Environment variables
 
-## 📋 Project Structure
-MERN_Stack_Auction_Platform/
-├── backend/                   # Backend server code
-│   ├── .env                   # Environment variables
-│   ├── app.js                 # Express app configuration
-│   ├── server.js              # Server entry point
-│   ├── automation/            # Cron jobs and automated tasks
-│   ├── controllers/           # API controllers
-│   ├── database/              # Database connection
-│   ├── middlewares/           # Custom middlewares
-│   ├── models/                # Mongoose models
-│   ├── router/                # API routes
-│   └── utils/                 # Utility functions
-│
-└── frontend/                  # React frontend code
-    ├── .env                   # Environment variables
-    ├── src/
-    │   ├── components/        # Reusable components
-    │   ├── custom-components/ # Custom UI components
-    │   ├── layout/            # Layout components
-    │   ├── lib/               # Utility libraries
-    │   ├── pages/             # Page components
-    │   ├── store/             # Redux store and slices
-    │   ├── utils/             # Utility functions
-    │   ├── App.jsx            # Main application component
-    │   └── main.jsx           # Entry point
-    └── public/                # Static assets
-
 ## 🚀 Getting Started
 
 ### Prerequisites
