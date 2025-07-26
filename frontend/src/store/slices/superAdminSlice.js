@@ -2,7 +2,7 @@ import axios from "axios";
 import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 import { getAllAuctionItems } from "./auctionSlice";
-import API_BASE_URL from "@/utils/apiConfig";
+import API_BASE_URL from "@/utils/apiconfig";
 
 const superAdminSlice = createSlice({
   name: "superAdmin",
